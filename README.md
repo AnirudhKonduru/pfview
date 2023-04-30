@@ -2,6 +2,8 @@
 
 PFView is a simple TUI viewer for PennFat files.
 
+[![build](https://github.com/AnirudhKonduru/pfview/actions/workflows/build.yml/badge.svg)](https://github.com/AnirudhKonduru/pfview/actions/workflows/build.yml)
+
 ## Demo
 
 ### Viewing a block as a directory block
@@ -22,6 +24,17 @@ The TUI's view updates automatically as the filesystem is modified, so you may h
 [Yak shaving.](https://seths.blog/2005/03/dont_shave_that/)
 
 ## Usage
+
+First, build the project:
+
+```sh
+cargo build --release # builds the binary in ./target/release/pfview
+```
+
+You may also download the binary from the [releases page](https://github.com/AnirudhKonduru/pfview/releases)
+instead.
+
+Then, run it with the path to the PennFat image as the first argument:
 
 ```sh
 cargo run ./path/to/pennfat.img
