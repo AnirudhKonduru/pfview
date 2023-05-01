@@ -9,6 +9,7 @@ authors = ["Anirudh Konduru <akonduru@seas.upenn.edu>"]
 tui = "0.19"
 crossterm = "0.26"
 anyhow = "1.0"
+thiserror = "1.0"
 memmap2 = "0.5.10"
 chrono = "0.4"
 colored = "2.0"
